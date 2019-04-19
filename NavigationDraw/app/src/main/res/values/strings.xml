@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Els meus llocs</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">NavigationDraw Joan Sanmartí</string>
+    <string name="nav_header_subtitle">joan.sanmarti@enti.cat</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="item_llista_llocs">Llistat de llocs</string>
+    <string name="item_afegir_lloc">Afegir un lloc</string>
+    <string name="item_mapa">Veure mapa</string>
+    <string name="nom_lloc">Nom del lloc:</string>
+    <string name="hint_nom_lloc">Alguna cosa per identificar el lloc</string>
+    <string name="tipus_lloc">Tipus:</string>
+    <string name="adreça_lloc">Adreça:</string>
+    <string name="hint_adreça_lloc">Adreça del lloc</string>
+    <string name="telefon_lloc">Telèfon:</string>
+    <string name="hint_telefon_lloc">Telèfon de contacte</string>
+    <string name="url_lloc">Url:</string>
+    <string name="hint_url_lloc">Pàgina web del lloc</string>
+    <string name="comentari_lloc">Comentari:</string>
+    <string name="hint_comentari_lloc">Afegeix les teves notes</string>
+    <string name="longitud_lloc">Longitud:</string>
+    <string name="hint_longitud_lloc">X</string>
+    <string name="latitud_lloc">Latitud:</string>
+    <string name="hint_latitud_lloc">Y</string>
+    <string name="valoracio_lloc">Valoració:</string>
+    <string name="hint_valoracio_lloc">0 min, 5 max</string>
+    <string name="afegir_btn">Afegir lloc</string>
+    <string name="editar_btn">Editar lloc</string>
+    <string name="borrar_btn">Borrar lloc</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

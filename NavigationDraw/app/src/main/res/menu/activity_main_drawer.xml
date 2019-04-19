@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/llista_llocs"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/item_llista_llocs" />
+        <item
+            android:id="@+id/afegir_lloc"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/item_afegir_lloc" />
+        <item
+            android:id="@+id/mapa"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="@string/item_mapa" />
+    </group>
+
+</menu>
