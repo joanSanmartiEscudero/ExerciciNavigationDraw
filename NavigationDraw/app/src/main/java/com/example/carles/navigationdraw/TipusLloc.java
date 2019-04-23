@@ -1,17 +1,17 @@
 package com.example.carles.navigationdraw;
 
 public enum TipusLloc {
-    OTROS("Otros", 5),
-    RESTAURANTE("Restaurante", 2),
-    BAR("Bar", 6),
-    COPAS("Copas", 0),
-    ESPECTACULO("Espectáculo", 0),
-    HOTEL("Hotel", 0),
-    COMPRAS("Compras", 0),
-    EDUCACION("Educación", 0),
-    DEPORTE("Deporte", 0),
-    NATURALEZA("Naturaleza", 0),
-    GASOLINERA("Gasolinera", 0);
+    OTROS("Otros", 11),
+    RESTAURANTE("Restaurante", 1),
+    BAR("Bar", 2),
+    COPAS("Copas", 3),
+    ESPECTACULO("Espectáculo", 4),
+    HOTEL("Hotel", 5),
+    COMPRAS("Compras", 6),
+    EDUCACION("Educación", 7),
+    DEPORTE("Deporte", 8),
+    NATURALEZA("Naturaleza", 9),
+    GASOLINERA("Gasolinera", 10);
     private final String texto;
     private final int recurso;
     TipusLloc(String texto, int recurso) {
