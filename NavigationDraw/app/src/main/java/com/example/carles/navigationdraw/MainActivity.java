@@ -122,10 +122,7 @@ public class MainActivity extends AppCompatActivity
             fragmentClass = AfegirLloc.class;
 
         } else if (id == R.id.mapa) {
-            //Intent i = new Intent(MainActivity.this, MapsActivity.class);
-            //startActivity(i);
-
-            fragmentClass = MapsActivity.class;
+            fragmentClass = MapsFragment.class;
         }
 
         try {
