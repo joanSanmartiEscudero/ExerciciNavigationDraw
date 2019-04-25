@@ -4,6 +4,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -118,7 +119,20 @@ public class AfegirLloc extends Fragment implements View.OnClickListener {
                         urlEditText.getText().toString(),
                         "uwu"
                         ));
+                break;
         }
+
+        Fragment fragment = null;
+        Class fragmentClass = LlistaLlocs.class;
+        try {
+            fragment = (Fragment) fragmentClass.newInstance();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (java.lang.InstantiationException e) {
+            e.printStackTrace();
+        }
+        FragmentManager fragmentManager = getFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
     }
 
     /**
